@@ -98,7 +98,7 @@ export default function Home() {
             <div className='relative md:max-w-xl'>
               <img
                 src='/your-image.png'
-                className='absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block'
+                className='absolute w-40 lg:w-28 left-48 -top-20 select-none hidden sm:block lg:hidden xl:block'
              alt="" />
               <img
                 src='/line.png'
