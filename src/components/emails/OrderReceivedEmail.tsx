@@ -13,6 +13,12 @@ import {
   Section,
   Text,
 } from '@react-email/components'
+import { color } from 'framer-motion'
+import { env } from 'process'
+import { CSSProperties } from 'react'
+import { text } from 'stream/consumers'
+import style from 'styled-jsx/style'
+import { number } from 'zod'
 
 const OrderReceivedEmail = ({
   shippingAddress,
@@ -26,7 +32,7 @@ const OrderReceivedEmail = ({
   const baseUrl =
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3000'
-      : 'https://casecobra.vercel.app'
+      : 'https://case-cobra2-zpwh.vercel.app'
 
   return (
     <Html>
